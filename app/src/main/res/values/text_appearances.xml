@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTextAppearance">
+        <item name="android:letterSpacing">0.0</item>
+    </style>
+
+    <style name="ToolbarTitleTextAppearance" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_body_2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="TextAppearanceHeadline4" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_headline_4</item>
+    </style>
+
+    <style name="TextAppearanceHeadline5" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_headline_5</item>
+    </style>
+
+    <style name="TextAppearanceHeadline6" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_headline_6</item>
+    </style>
+
+    <style name="TextAppearanceSubtitle1" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_subtitle_1</item>
+    </style>
+
+    <style name="TextAppearanceSubtitle2" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_subtitle_2</item>
+    </style>
+
+    <style name="TextAppearanceBody1" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_body_1</item>
+    </style>
+
+    <style name="TextAppearanceBody2" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_body_2</item>
+    </style>
+
+    <style name="TextAppearanceButton" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_button</item>
+    </style>
+
+    <style name="TextAppearanceCaption" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_caption</item>
+    </style>
+
+    <style name="TextAppearanceOverline" parent="BaseTextAppearance">
+        <item name="android:textSize">@dimen/material_text_size_overline</item>
+    </style>
+
+</resources>
